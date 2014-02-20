@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	p 
+	h1 Welcome to #{title}
+	for l in locations
+		p You are currently in #{l.name}.
+		p This is the #{l.description}.
+	a(class='button', href="#") Previous
+	a(class='button', href="#") Next

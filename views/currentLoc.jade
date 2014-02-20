@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	p 
+	h1 Welcome to #{title}
+
+		p You are currently in #{landing.name}.
+		p This is the #{landing.description}.
+	a(class='button', href="#{landing.previous}") Previous
+	a(class='button', href="#{landing.next}") Next
