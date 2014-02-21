@@ -44,7 +44,6 @@ var destinations = [
 
 module.exports = {
 	findAll: function() {
-		// console.log(destinations[0]);
 		return destinations.slice();
 	},
 	find: function(place) {
